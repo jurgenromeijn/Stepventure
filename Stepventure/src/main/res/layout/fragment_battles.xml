@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name_monster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="monster_name"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/monster_portrait"
+            android:src="@drawable/mob_1"
+            android:fontFamily="sans-serif-thin"
+            android:layout_below="@+id/name_monster"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/health_monster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="health_monster"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/monster_portrait" />
+
+        <TextView
+            android:id="@+id/level_monster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="level_monster"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/white"
+            android:layout_above="@+id/health_monster"
+            android:layout_toLeftOf="@+id/monster_portrait" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/player_portrait"
+            android:layout_centerVertical="true"
+            android:src="@drawable/head_back_right"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/level_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="level_player"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/white"
+            android:layout_above="@+id/health_player"
+            android:layout_alignLeft="@+id/health_player" />
+
+        <TextView
+            android:id="@+id/health_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="health_player"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/player_portrait" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background ="@color/main_bg"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/battle_information"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/white"
+            android:layout_below="@+id/line"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sword_attack"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_weight="0.3"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/shield_bash_attack"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_weight="0.3"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/laser_attack"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_weight="0.3"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

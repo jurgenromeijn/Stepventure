@@ -1,0 +1,96 @@
+<resources>
+    <!-- TODO: Remove unused assets/images -->
+    <!-- TODO: Compress current assets/images -->
+    <!-- TODO: Rename assets/images -->
+    <!-- TODO: Rename Theme -->
+
+    <!-- Base application theme. -->
+    <style name="OrangeDark" parent="android:Theme.Holo">
+
+        <!-- Background colors -->
+        <item name="android:windowBackground">@drawable/denim_dark_repeat</item>
+
+        <!-- ActionBar -->
+        <item name="android:actionBarStyle">@style/OrangeDark.Actionbar</item>
+        <item name="android:actionBarTabTextStyle">@style/OrangeDark.Actionbar.TabText</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:actionOverflowButtonStyle">@style/OrangeDark.Actionbar.Overflow</item>
+
+        <!-- Buttons -->
+        <item name="android:buttonStyle">@style/OrangeDark.Button</item>
+        <item name="android:imageButtonStyle">@style/OrangeDark.ImageButton</item>
+        <item name="android:buttonStyleToggle">@style/OrangeDark.Toggle</item>
+
+        <!-- TextView -->
+        <item name="android:textViewStyle">@style/OrangeDark.TextView</item>
+
+        <!-- Progress Bar -->
+        <item name="android:progressBarStyleHorizontal">@style/OrangeDark.ProgressBar</item>
+
+        <!-- List Selector-->
+        <item name="android:listChoiceBackgroundIndicator">@drawable/orangedark_list_selector_holo_dark</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/orangedark_activated_background_holo_dark</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/orangedark_fastscroll_thumb_holo</item>
+    </style>
+
+    <!-- ActionBar -->
+    <style name="OrangeDark.Actionbar"
+        parent="android:Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/stressed_linen_repeat</item>
+        <item name="android:titleTextStyle">@style/OrangeDark.TextAppearance.Actionbar.Title</item>
+        <item name="android:logo">@drawable/ic_action_brobot_head</item>
+    </style>
+    <style name="OrangeDark.TextAppearance.Actionbar.Title"
+        parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/actionbar_bg</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:lineSpacingExtra">40sp</item>
+    </style>
+    <style name="OrangeDark.Actionbar.TabText"
+        parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="OrangeDark.Actionbar.Overflow"
+        parent="android:Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Button -->
+    <style name="OrangeDark.Button" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/orangedark_btn_default_holo_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="OrangeDark.ImageButton" parent="android:Widget.Holo.ImageButton">
+        <item name="android:background">@drawable/orangedark_btn_default_holo_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="OrangeDark.Toggle" parent="android:Widget.Holo.Button.Toggle">
+        <item name="android:background">@drawable/orangedark_btn_toggle_holo_dark</item>
+    </style>
+
+    <!-- Progress Bar -->
+    <style name="OrangeDark.ProgressBar" parent="android:Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/orangedark_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/orangedark_progress_indeterminate_horizontal_holo_dark</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="OrangeDark.TextView" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Navigation styles -->
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/list_item_title</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">40dp</item>
+    </style>
+
+
+
+</resources>

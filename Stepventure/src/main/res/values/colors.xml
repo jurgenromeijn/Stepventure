@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="pressed_pokered">#CCAE1515</color>
+    <color name="white">#fff</color>
+
+    <color name="actionbar_bg">#ff8a00</color>
+    <color name="drawer_bg">#ffac5600</color>
+    <color name="main_bg">#ffd87200</color>
+
+    <color name="list_divider">#ffd87200</color>
+    <color name="list_background">#ffd87200</color>
+    <color name="list_item_title">#fff</color>
+    <color name="counter_text_color">#fff</color>
+    <color name="counter_text_bg">#ff3a3a3a</color>
+    <color name="list_background_pressed">#ffac5600</color>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="app_name">Stepventure</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">182042158405</string>
+    <string name="action_exit">Exit</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="tracking_started">Your steps are being tracked!</string>
+
+    <!-- Introduction Arrays -->
+    <!-- Text Items-->
+    <string-array name="introduction_texts">
+        <item>Hello there! Glad to meet you!
+            Welcome to the world of Stepventure!
+            My name is Brobot! People call me the Stepventure Prof!
+        </item>
+
+        <item>This world is inhabited by creatures called Stepmon!
+            For some people, Stepmon are pets. Others use them for fights. Myself… I study Stepmon as
+            a profession.
+        </item>
+
+        <item>On the dashboard screen you can track how many steps you have taken into the world of Stepventure.
+            It\'s also a place where you can start and pause your adventure.
+        </item>
+
+        <item>Simply click on the Start Adventure button to start your adventure!
+            Take steps in the real world and wait till you get attacked by a Stepmon.</item>
+
+        <item>While the Adventuremode is active, the Stepventure notification will keep you informed.
+            Stopping the Adventuremode will remove the notification.</item>
+
+        <item>On the statistics screen you can check your current statistics, such as your level, attack damage, defense and how much experience you need till the next level!
+        </item>
+
+        <item>When you encounter a Stepmon you can choose to fight!
+            Attack with your sword, bash with your shield and eventually shoot lasers to ensure victory.
+        </item>
+
+        <item>Your very own Stepventure legend is about to unfold!
+            A world of dreams and adventures with Stepmon awaits! Let\'s go!
+        </item>
+    </string-array>
+    <!-- Image Items -->
+    <array name="introduction_images">
+        <item>@drawable/intro_head</item>
+        <item>@drawable/intro_stepmon</item>
+        <item>@drawable/intro_dashboard</item>
+        <item>@drawable/intro_start</item>
+        <item>@drawable/intro_notification</item>
+        <item>@drawable/intro_stats</item>
+        <item>@drawable/intro_battle</item>
+        <item>@drawable/intro_brobot</item>
+    </array>
+
+    <!-- Nav Drawer -->
+    <!-- Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Dashboard</item>
+        <item>Statistics</item>
+        <item>Battles</item>
+        <item>About</item>
+    </string-array>
+    <!-- List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_stats</item>
+        <item>@drawable/ic_action_battle</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- Drawer open/close -->
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Dashboard -->
+    <string name="step_coins">Stepcoins:</string>
+    <string name="dashboard_info">Status:</string>
+    <string name="adventure_start">Adventure-mode: ON</string>
+    <string name="adventure_stop">Adventure-mode: OFF</string>
+    <string name="status_active">Adventuring!</string>
+    <string name="status_inactive">Taking a break.</string>
+
+    <!-- Fight/Battle -->
+    <string name="new_fight_title">Oh no!</string>
+    <string name="new_fight_text">You\'re being attacked by a monster!</string>
+    <string name="no_battles">No battles</string>
+    <string name="no_battles_info">Start walking to encounter more monsters!</string>
+    <string name="swipe_hint">Swipe left for more!</string>
+    <string name="exit_introduction">Exit introduction</string>
+    <string name="won">Battles Won:</string>
+    <string name="lost">Battles Lost:</string>
+
+    <string name="battle_level">Level: <xliff:g id="level" example="1">%1$d</xliff:g></string>
+    <string name="battle_health">Health: <xliff:g id="level" example="1">%1$d</xliff:g></string>
+    <string name="battle_sword_button">Sword \n Damage: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Miss chance: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_shield_button">Shield bash \n Damage: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Miss chance: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_laser_button">Laser \n Damage: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Miss chance: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_monster_missed"><xliff:g id="monster" example="Mister T">%1$s</xliff:g>
+        missed his attack!</string>
+    <string name="battle_monster_hit"><xliff:g id="monster" example="Mister T">%1$s</xliff:g>\'s
+        attack deals <xliff:g id="damage" example="100">%2$d</xliff:g> damage!</string>
+    <string name="battle_sword_missed">Your sword attack missed!</string>
+    <string name="battle_sword_hit">Your sword attack deals <xliff:g id="damage" example="100">%1$d</xliff:g> damage!</string>
+    <string name="battle_shield_missed">Your shield bash attack missed!</string>
+    <string name="battle_shield_hit">Your shield bash attack deals <xliff:g id="damage" example="100">%1$d</xliff:g> damage!</string>
+    <string name="battle_laser_missed">Your laser attack missed!</string>
+    <string name="battle_laser_hit">Your laser attack deals <xliff:g id="damage" example="100">%1$d</xliff:g> damage!</string>
+    <string name="battle_won">Congratulations, you killed <xliff:g id="monster" example="Mister T">%1$s</xliff:g>!</string>
+    <string name="battle_won_experience">Congratulations, you killed <xliff:g id="monster" example="Mister T">%1$s</xliff:g>!\n\n
+        You gained <xliff:g id="experience" example="100">%2$d</xliff:g> experience points!</string>
+    <string name="battle_won_experience_level">Congratulations, you killed <xliff:g id="monster" example="Mister T">%1$s</xliff:g>!\n\n
+        You gained <xliff:g id="experience" example="100">%2$d</xliff:g> experience points!\n\n
+        You have become level <xliff:g id="level" example="1">%3$d</xliff:g></string>
+    <string name="battle_lost"><xliff:g id="player" example="Maurice">%1$s</xliff:g> died.</string>
+    <string name="battle_lost_coins"><xliff:g id="player" example="Maurice">%1$s</xliff:g> died.\n\n
+        You lost <xliff:g id="stepcoins" example="1">%2$d</xliff:g> stepcoins.</string>
+
+    <!-- Stats -->
+    <string name="stats_level">Level</string>
+    <string name="stats_exp">Experience: </string>
+    <string name="stats_health">Health:</string>
+    <string name="stats_attack">Attack Damage:</string>
+    <string name="stats_defense">Defense:</string>
+
+    <!-- About -->
+    <string name="created_by">Created by:</string>
+    <string name="creators">Maurice Moret \nSebastiaan Scheers \nJurgen Romeijn</string>
+    <string name="app_info">Application information</string>
+    <string name="battle_run">Fight avoided: You ran away!</string>
+    <string name="version">Version: </string>
+
+
+</resources>

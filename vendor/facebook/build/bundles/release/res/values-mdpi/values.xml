@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/jurgenromeijn/Dropbox/school/Jaar%204/minor/project%202/Stepventure/vendor/facebook/res/values-mdpi/dimens.xml -->
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+
+</resources>

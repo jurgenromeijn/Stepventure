@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- General -->
+    <string name="app_name">Stepventure</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="app_id">182042158405</string>
+    <string name="action_exit">Afsluiten</string>
+    <string name="coming_soon">Komt binnekort!</string>
+    <string name="tracking_started">Je stappen worden bijgehouden!</string>
+
+    <!-- Introduction Arrays -->
+    <!-- Text Items-->
+    <string-array name="introduction_texts">
+        <item>Hey daar! Fijn je te ontmoeten!
+            Welkom in de wereld van Stepventure!
+            Mijn naam is Brobot! Mensen noemen me de Stepventure Prof!
+        </item>
+
+        <item>Deze wereld wordt bewoond door wezens die Stepmon heten!
+            Voor sommige mensen zijn stepmon huisdieren. Anderen gebruiken ze om te vechten. Ik? Ik bestudeer
+            Stepmon voor mijn beroep.
+        </item>
+
+        <item>Op het dashboard scherm kun je bekijken hoeveel stappen je hebt gezet in de wereld van Stepventure.
+            Het is ook de plek waar je jouw avontuur kunt starten en pauzeren.
+        </item>
+
+        <item>Om je avontuur te starten, klik je op de start avontuur knop!
+            Zet stappen in de echte wereld en wacht tot je door een Stepmon aangevallen wordt.</item>
+
+        <item>Terwijl de avontuur-modus actief is, houdt de Stepventure notificatie je op de hoogte.
+            De notificatie zal weer verdwijnen als de avontuur-modus wordt uitgezet.</item>
+
+        <item>Op het statistieken scherm zie je jouw huidige statistieken, zoals level, aanvalswaarde, verdedigingswaarde en hoeveel ervaring je nodig hebt voor het volgende level!
+        </item>
+
+        <item>Als je een Stepmon tegen komt kun je er voor kiezen om te vechten!
+            Val aan met je zwaard, beuk met je schild of schiet zelfs met lazers om de overwinning veilig te stellen.
+        </item>
+
+        <item>Je eigen Stepventure avontuur staat op het punt om te beginnen!
+            Een wereld van dromen en avonturen met Stepmon wacht op je! Laten we beginnen!
+        </item>
+
+    </string-array>
+    <!-- Image Items -->
+    <array name="introduction_images">
+        <item>@drawable/intro_head</item>
+        <item>@drawable/intro_stepmon</item>
+        <item>@drawable/intro_dashboard</item>
+        <item>@drawable/intro_start</item>
+        <item>@drawable/intro_notification</item>
+        <item>@drawable/intro_stats</item>
+        <item>@drawable/intro_battle</item>
+        <item>@drawable/intro_brobot</item>
+    </array>
+
+    <!-- Nav Drawer -->
+    <!-- Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Dashboard</item>
+        <item>Statistieken</item>
+        <item>Gevechten</item>
+        <item>Over</item>
+    </string-array>
+    <!-- List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_home</item>
+        <item>@drawable/ic_action_stats</item>
+        <item>@drawable/ic_action_battle</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icoon</string>
+    <!-- Drawer open/close -->
+    <string name="drawer_open">Slider Menu Geopend</string>
+    <string name="drawer_close">Slider Menu Gesloten</string>
+
+    <!-- Dashboard -->
+    <string name="step_coins">Stepmunten: </string>
+    <string name="dashboard_info">Status:</string>
+    <string name="adventure_start">Avontuur-modus: Aan</string>
+    <string name="adventure_stop">Avontuur-modus: Uit</string>
+    <string name="status_active">Op avontuur!</string>
+    <string name="status_inactive">Aan het rusten.</string>
+
+    <!-- Fight/Battle -->
+    <string name="new_fight_title">Oh nee!</string>
+    <string name="new_fight_text">Je wordt aangevallen door een monster!</string>
+    <string name="no_battles">Geen gevechten</string>
+    <string name="no_battles_info">Start met lopen om meer monsters tegen te komen!</string>
+    <string name="swipe_hint">Veeg naar links!</string>
+    <string name="exit_introduction">Verlaat de introductie</string>
+    <string name="won">Gewonnen gevechten:</string>
+    <string name="lost">Verloren gevechten:</string>
+
+    <string name="battle_level">Level: <xliff:g id="level" example="1">%1$d</xliff:g></string>
+    <string name="battle_health">Levenspunten: <xliff:g id="level" example="1">%1$d</xliff:g></string>
+    <string name="battle_sword_button">Zwaard \n Schade: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Mis kans: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_shield_button">Schild beuk \n Schade: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Mis kans: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_laser_button">Lazer \n Schade: <xliff:g id="damage" example="100">%1$d</xliff:g>%%\n
+        Mis kans: <xliff:g id="miss" example="25">%2$d</xliff:g>%%</string>
+    <string name="battle_monster_missed"><xliff:g id="monster" example="Mister T">%1$s</xliff:g>
+        zijn aanval heeft gemist</string>
+    <string name="battle_monster_hit"><xliff:g id="monster" example="Mister T">%1$s</xliff:g>
+        zijn aanval heeft <xliff:g id="damage" example="100">%2$d</xliff:g> schade gedaan!</string>
+    <string name="battle_sword_missed">Jouw zwaard aanval miste</string>
+    <string name="battle_sword_hit">Jouw zwaard aanval deed voor <xliff:g id="damage" example="100">%1$d</xliff:g> punten aan schade!</string>
+    <string name="battle_shield_missed">Jouw schild beuk miste</string>
+    <string name="battle_shield_hit">Jouw schild beuk deed voor <xliff:g id="damage" example="100">%1$d</xliff:g> punten aan schade!</string>
+    <string name="battle_laser_missed">Jouw lazer aanval miste</string>
+    <string name="battle_laser_hit">Jouw lazer aanval deed voor <xliff:g id="damage" example="100">%1$d</xliff:g> punten aan schade!</string>
+    <string name="battle_won">Gefeliciteerd, je hebt <xliff:g id="monster" example="Mister T">%1$s</xliff:g> verslagen!</string>
+    <string name="battle_won_experience">Gefeliciteerd, je hebt <xliff:g id="monster" example="Mister T">%1$s</xliff:g> verslagen!\n\n
+        Je hebt er <xliff:g id="experience" example="100">%2$d</xliff:g> ervaringspunten bij!</string>
+    <string name="battle_won_experience_level">Gefeliciteerd, je hebt <xliff:g id="monster" example="Mister T">%1$s</xliff:g> verslagen!\n\n
+        Je hebt er <xliff:g id="experience" example="100">%2$d</xliff:g> ervaringspunten bij!\n\n
+        Je bent nu level <xliff:g id="level" example="1">%3$d</xliff:g></string>
+    <string name="battle_lost"><xliff:g id="player" example="Maurice">%1$s</xliff:g> is gestorven.</string>
+    <string name="battle_lost_coins"><xliff:g id="player" example="Maurice">%1$s</xliff:g> is gestorven.\n\n
+        Je hebt <xliff:g id="stepcoins" example="1">%2$d</xliff:g> verloren.</string>
+
+    <!-- Stats -->
+    <string name="stats_level">Level</string>
+    <string name="stats_exp">Ervaringspunten: </string>
+    <string name="stats_health">Levenspunten:</string>
+    <string name="stats_attack">Aanvalswaarde:</string>
+    <string name="stats_defense">Verdedigingswaarde:</string>
+
+    <!-- About -->
+    <string name="created_by">Ontwikkeld door:</string>
+    <string name="creators">Maurice Moret \nSebastiaan Scheers \nJurgen Romeijn</string>
+    <string name="app_info">Applicatie informatie</string>
+    <string name="battle_run">Gevecht ontweken: Je bent gevlucht!</string>
+    <string name="version">Versie: </string>
+
+</resources>

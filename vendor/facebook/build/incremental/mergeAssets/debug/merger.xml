@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/jurgenromeijn/Dropbox/school/Jaar 4/minor/project 2/Stepventure/vendor/facebook/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/jurgenromeijn/Dropbox/school/Jaar 4/minor/project 2/Stepventure/vendor/facebook/src/debug/assets" />
+    </dataSet>
+
+</merger>

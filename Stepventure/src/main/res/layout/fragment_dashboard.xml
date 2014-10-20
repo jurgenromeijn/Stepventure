@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/info_row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/coinImage"
+                    android:src="@drawable/ic_action_shoes"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="StepCoin Icon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_coins"
+                    android:id="@+id/step_coins"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:id="@+id/info_line1"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background ="@color/main_bg"
+            android:layout_below="@+id/info_row1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/step_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:text="0"
+            android:textColor="@color/white"
+            android:layout_below="@+id/info_line1"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/info_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/statusImage"
+                    android:src="@drawable/ic_action_shield"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="Status Icon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dashboard_info"
+                    android:id="@+id/dashboard_info"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical" />
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:id="@+id/info_line2"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:background ="@color/main_bg"
+            android:layout_below="@+id/info_row2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/adventure_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/status_inactive"
+            android:textColor="@color/white"
+            android:layout_below="@+id/info_line2"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:id="@+id/adventure_button"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textOn="@string/adventure_start"
+            android:textOff="@string/adventure_stop"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
